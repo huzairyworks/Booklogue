@@ -26,13 +26,13 @@ a
 {
 	text-decoration:none;
 	color:#666;
-	border-bottom:1px solid #f5f5f5;
+	border-bottom:1px solid #eee;
 }
 
 a:hover
 {
 	color:#000;
-	border-bottom:1px solid #eee;
+	border-bottom:1px solid #e5e5e5;
 }
 
 h1
@@ -76,6 +76,20 @@ ul li
 	color:#444;
 }
 
+#mainnavi
+{
+	background:#f5f5f5;
+	padding:7px 10px 5px 10px;
+	border-bottom:1px solid #eee;
+	width:890px;
+}
+
+#mainnavi ul li
+{
+	display:inline;
+	margin-right:10px;
+}
+
 .books
 {
 	width:200px;
@@ -83,7 +97,7 @@ ul li
 	padding:0 35px 40px 0;
 }
 
-.books img
+.books img, .book_single img
 {
 	margin-bottom:10px;
 	box-shadow:0 0 10px #ccc;
@@ -96,6 +110,27 @@ ul li
 {
 	display:block;
 	font-weight:bold;
+}
+
+/* Single View */
+#single_view
+{
+	width:910px;
+	margin-top:10px;
+}
+
+#review
+{
+	width:630px;
+	text-align:justify;
+}
+
+#book_info
+{
+	margin-top:30px;
+	width:200px;
+	border-left:1px solid #eee;
+	padding:0 0 30px 40px;
 }
 
 #footer
